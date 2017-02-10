@@ -76,7 +76,8 @@ def test_folders(default_baked_project):
         os.path.join('src', 'data'),
         os.path.join('src', 'features'),
         os.path.join('src', 'models'),
-        os.path.join('src', 'visualization')
+        os.path.join('src', 'visualization'),
+        os.path.join('tests')
     ]
 
     ignored_dirs = [

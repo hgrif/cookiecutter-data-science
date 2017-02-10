@@ -48,6 +48,8 @@ Project Organization
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
+    ├── tests              <- Unit and integration tests for your source code.
+    │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
 
