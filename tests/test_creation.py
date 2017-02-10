@@ -59,6 +59,13 @@ def test_makefile(default_baked_project):
     assert no_curlies(makefile_path)
 
 
+def test_setup(default_baked_project):
+    setup_path = os.path.join(default_baked_project, 'Makefile')
+
+    assert os.path.exists(setup_path)
+    assert no_curlies(setup_path)
+
+
 def test_folders(default_baked_project):
     expected_dirs = [
         'data',
